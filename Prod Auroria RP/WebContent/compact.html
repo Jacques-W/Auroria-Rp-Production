@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<title>Auroria RôlePlay</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+			<h2 class="text-danger">Auroria RôlePlay</h2>
+				<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barreNavigation"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+			<div class="collapse navbar-collapse" id="barreNavigation">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.php">Accueil</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background.html">Notre Histoire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="creationBackgroundPerso.php">Créer son Background</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background-perso.php">Background Personnages</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="rules.html">Notre Code Pénale</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="concess_main.html">Le Concessionnaire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="contact.php">Nous contacter</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="container-fluid bg-secondary m-0">
+		<section class="container bg-dark text-center text-light py-5">
+			<div class="row">
+				<div class="col-md-12 py-2 border-top border-bottom border-danger">
+					<h2 class="text-danger">Vous êtes sur la Page des Compactes!</h2>
+				</div>
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/brioso.jpg" alt="La Brioso">
+						<div class="card-body bg-dark text-center text-light">
+							<h5 class="card-title">La Brioso</h5>
+							<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+								<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#brioso">
+									Caracteristiques
+								</button>
+						</div>
+					</div>
+				</div>
+				<!-- MODALE BRIOSO -->
+				<div class="modal fade" id="brioso" tabindex="-1" role="dialog" aria-labelledby="brioso" aria-hidden="true">
+ 					<div class="modal-dialog" role="document">
+   						<div class="modal-content">
+    					 	<div class="modal-header bg-dark text-center text-light">
+     						  	<h5 class="modal-title" id="exampleModalLabel">La Brioso</h5>
+       							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         							<span aria-hidden="true">&times;</span>
+       							</button>
+     						</div>
+     						<div class="modal-body bg-secondary text-light text-center">
+       						Prix d'achat: 18 000$<br>
+       						Vitesse Maximum: Inconnue.<br>
+       						Nombre de Places: 2.
+     						</div>
+     						<div class="modal-footer bg-dark">
+       						<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+     						</div>
+   						</div>
+ 					</div>
+				</div>
+				<!-- FIN MODALE BRIOSO -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/blista.jpg" alt="La Blista">
+							<div class="card-body bg-dark text-light text-center">
+								<h5 class="card-title">La Blista</h5>
+									<p>Clique sur le Bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#blista">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE BLISTA -->
+				<div class="modal fade" id="blista" tabindex="-1" role="dialog" aria-labelledby="blista" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-center text-light">
+								<h5 class="modal-title" id="blista">La Blista</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light text-center">
+								Prix d'achat: 8 000$<br>
+								Vitesse Maximum: 135 km/h<br>
+								Masse: 1 200 kg<br>
+								Nombres de places: 2<br>
+								Moteur: Essence<br>
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE BLISTA -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/issi.jpg" alt="L' Issi">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">L' Issi</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#issi">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE ISSI -->
+				<div class="modal fade" id="issi" tabindex="-1" role="dialog" aria-labelledby="issi" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-center text-light">
+								<h5 class="modal-title">L' Issi</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light text-center">
+								Prix d'achat: 10 000$<br>
+								Vitesse Maximum: 135 km/h<br>
+								Masse: 1 200kg<br>
+								Moteur: Essence
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE ISSI -->
+				<div class="col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="images/panto.jpg" alt="La Panto">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Panto</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#panto">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE PANTO -->
+				<div class="modal fade" id="panto" tabindex="-1" role="dialog" aria-labelledby="brioso" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-center text-light">
+								<h5 class="modal-title">La Panto</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 10 000$<br>
+								Vitesse Maximum: 132km/h<br>
+								Masse: 800kg<br>
+								Moteur: Essence
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE PANTO -->
+				<div class="col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="images/prairie.jpg" alt="La Prairie">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Prairie</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#prairie">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE PRAIRIE -->
+				<div class="modal fade" id="prairie" tabindex="-1" role="dialog" aria-labelledby="prairie" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-center text-light">
+								<h5 class="modal-title" id="prairie">La Prairie</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 12 000$<br>
+								Vitesse Maximum: 135 km/h<br>
+								Masse: 1 400 kg<br>
+								Nombre de Places: 2<br>
+								Moteur: Essence
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODAL PRAIRIE -->
+			</div>
+		</section>
+	</section>
+	<section class="container-fluid bg-dark text-light">
+		<section class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>@copyright 2020-2021 - Tous droits réservés à Auroria RôlePlay - Propulsé par Jacques Blake
+						<a type="button" class="btn btn-dark" href="mentions.html" role="button">Mentions Légales</a>
+				</div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>

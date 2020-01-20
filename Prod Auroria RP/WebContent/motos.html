@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<title>Auroria RôlePlay</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+			<h2 class="text-danger">Auroria RôlePlay</h2>
+				<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barreNavigation"
+						aria-controls="barreNavigation" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+			<div class="collapse navbar-collapse" id="barreNavigation">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.php">Accueil</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background.html">Notre Histoire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="creationBackgroundPerso.php">Créer son Personnage</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background-perso.php">Background Personnages</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="rules.html">Notre Code Pénale</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="concess_main.html">Notre Concessionnaire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="contact.php">Nous contacter</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="container-fluid bg-secondary m-0">
+		<section class="container bg-dark py-2">
+			<div class="row">
+				<div class="col-md-12 text-center text-light">
+					<h1>Vous êtes sur la page des Motos!</h1>
+				</div>
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/double-t.jpg" alt="Double T">
+							<div class="card-body text-center text-light">
+								<h5 class="card-title">La Double T</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-darl" data-toggle="modal" data-target="#doubleT">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE DOUBLE T -->
+				<div id="doubleT" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doubleT" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div id="doubleT" class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Double T</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button> 
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 28 000$<br>
+								Vitesse Maximum: 147 km/h<br>
+								Masse: 200 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE DOUBLE T -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/cliffhanger.jpg" alt="La Cliffhanger">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title text-center text-light">La CliffHanger</h5>
+									<p>Clique sur le bouton sur pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#cliffhanger">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- DEBUT MODAL -->
+				<div id="cliffhanger" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="cliffhanger">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div id="cliffhanger" class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La CliffHanger</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light text-center">
+								Prix d'achat: 9 500$<br>
+								Nombre de places: 1
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/faggio.jpg" alt="Le Vespa">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">Le Vespa</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark"  data-toggle="modal" data-target="#vespa">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- DEBUT MODALE VESPA -->
+				<div id="vespa" class="modal fade" role="dialog" aria-labelledby="vespa" aria-hidden="true" tabindex="-1">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">Le Vespa</h5>
+								<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix: 2 800$<br>
+								Vitesse Maximum: 90 km/h<br>
+								Masse: 100 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="moal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE VESPA -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/bati-801.jpg" alt="La Bati 801">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Bati 801</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#bati-801">
+											Caratéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- DEBUT MODALE BATI 801 -->
+				<div id="bati-801" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="bati-801" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Bati 801</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 12 000$<br>
+								Vitesse Maximum: 150 km/h<br>
+								Masse: 230 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE BATI 801 -->
+				<div class="col-md-6 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/avarus.jpg" alt="avarus">
+							<div class="card-body bg-dark text-center text-light">
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#avarus">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- DEBUT MODALE AVARUS -->
+				<div id="avarus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="avarus" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">L'Avarus</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light text-center">
+								Prix d'achat: 18 000$<br>
+								Vitesse Maximum: 84 km/h<br>
+								Masse: 230 kg<br>
+								Nombre de Places: 1 place
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE AVARUS -->
+				<div class="col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="images/bati-801rr.jpg" alt="Bati 801 RR">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Bati 801RR</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#bati801RR">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- DEBUT MODALE BATI 801 RR -->
+				<div id="bati801RR" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="bati801RR" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Bati 801RR</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 19 000$<br>
+								Vitessse Maximum: 150 km/h<br>
+								Masse: 230 kg<br>
+								Nombre de Places: 2 places
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE BATI 801RR -->
+			</div>
+		</section>
+	</section>
+	<section class="container-fluid bg-dark text-light">
+		<section class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>@copyright 2020-2021 - Tous droits réservés à Auroria RôlePlay - Propulsé par Jacques Blake
+						<a type="button" class="btn btn-dark" href="mentions.html" role="button">Mentions Légales</a>
+				</div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>

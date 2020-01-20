@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<title>Auroria RôlePlay</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+			<h2 class="text-danger">Auroria RôlePlay</h2>
+				<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barreNavigation"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+			<div class="collapse navbar-collapse" id="barreNavigation">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.php">Accueil</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background.html">Notre Histoire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="creationBackgroundPerso.php">Créer son Background</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="background-perso.php">Background Personnages</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="rules.html">Notre Code Pénale</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="concess_main.html">Le Concessionnaire</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="contact.php">Nous contacter</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="container-fluid bg-secondary m-0">
+		<section class="container bg-dark text-center text-light py-5">
+			<div class="row">
+				<div class="col-md-12 border-top border-bottom border-danger py-2">
+					<h2 class="text-danger">Vous êtes sur la page des Coupées!</h2>
+				</div>
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/exemplar.jpg" alt="Exemplar">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">L'Exemplar</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exemplar">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE EXEMPLAR -->
+				<div class="modal fade" id="exemplar" tabindex="-1" role="dialog" aria-labelledby="exemplar" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title" id="exemplar">L'Exemplar</h5>
+							</div>
+							<div class="modal-body bg-secondary text-light">
+								Prix d'achat 32 000$<br>
+								Vitesse Maximum: 232 km/h<br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE EXEMPLAR -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/zion-cabrio.jpg" alt="Zion Cabrio">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Zion Cabrio</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="zion-c">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE ZION CABRIO -->
+				<div class="modal fade" id="zion-c" tabindex="-1" role="dialog" aria-labelledby="Zion" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title" id="Zion">La Zion Cabriolée</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body bg-secondary text-light">
+								Prix d'achat 45 000$<br>
+								Masse: 1 400kg<br>
+								Nombre de Places: 2<br>
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE ZION CABRIO -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/sentinel-xs.jpg" alt="Sentinel XS">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Sentinel XS</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#sentinel">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE SENTINEL XS -->
+				<div class="modal fade" id="sentinel" tabindex="-1" role="dialog" aria-labelledby="sentinel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title" id="sentinel">La Sentinel XS</h5>
+								<button type="button" class="close" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 40 000$<br>
+								Vitesse Maximum: 227 km/h<br>
+								Masse: 1 400 kg<br>
+								Nombre de Places: 4<br>
+								Moteur: Propulsion
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE SENTINEL XS -->
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/windsor.jpg" alt="La Windsor">
+							<div class="card-body bg-dark text-light text-center">
+								<h5 class="card-title">La Windsor</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#windsor">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE WINDSOR -->
+				<div class="modal fade" id="windsor" tabindex="-1" role="dialog" aria-labelledby="windsor" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Windsor</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light">
+								Prix d'achat 95 000$<br>
+								Vitesse Maximum: 177 km/h<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE WINDSOR -->
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/f620.jpg" alt="F-620">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La F-620</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="f620">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE F-620 -->
+				<div class="modal fade" id="f620" tabindex="-1" role="dialog" aria-labelledby="f620" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La F-620</h5>
+									<button type="button" class="close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 40 000$<br>
+								Vitesse Maximum: 232 km/h<br>
+								Masse: 1 800 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE F-620 -->
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/zion.jpg" alt="Zion Serie">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Zion de Série</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#zionSerie">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE ZION SERIE -->
+				<div class="modal fade" id="zionSerie" tabindex="-1" role="dialog" aria-labelledby="zionSerie" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Zion Série</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-light text-center">
+								Prix d'achat: 36 000$<br>
+								Vitesse Maximale: 232 km/h<br>
+								Masse: 1 400 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE ZION SERIE -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/oracle.jpg" alt="L'Oracle">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">L'Oracle XS</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#oracle">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE ORACLE XS -->
+				<div class="modal fade" id="oracle" tabindex="-1" role="dialog" aria-labelledby="oracle" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">L'Oracle XS</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 35 000$<br>
+								Vitesse Maximum: 240 km/h<br>
+								Masse: 1 900 kg<br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE ORACLE XS -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/jackal.jpg" alt="La Jackal">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Jackal</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#jackal">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE JACKAL -->
+				<div class="modal fade" id="jackal" role="dialog" tabindex="-1" aria-labelledby="jackal" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Jackal</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary bg-secondary text-center text-light">
+								Prix d'achat 38 000$<br>
+								Vitesse Maximum: 228 km/h<br>
+								Masse: 1 800 kg<br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE JACKAL -->
+				<div class="col-md-4 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/windsor2.jpg" alt="La Windsor Drop">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Windsor Drop</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#windsorDrop">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE WINDSOR DROP -->
+				<div id="windsorDrop" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="windsorDrop" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Windsor Drop</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 125 000$<br>
+								Vitesse Maximum: Inconnue.<br>
+								Masse: Inconnue.</br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE WINDSOR DROP -->
+				<div class="col-md-6 py-5">
+					<div class="card">
+						<img class="card-img-top" src="images/felon-gt.jpg" alt="La Felon GT">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Felon GT</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#felonGt">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE FELON GT -->
+				<div class="modal fade" id="felonGt" role="dialog" tabindex="-1" aria-labelledby="felonGt" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Felon GT</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat 55 000$<br>
+								Vitesse Maximum: 232 km/h<br>
+								Masse: 1 850 kg<br>
+								Nombre de Places: 2
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE FELON GT -->
+				<div class="col-md-6 py-5">
+					<div class="card">
+						<img class="card-img-top" src="images/cognoscenti-cabrio.jpg" alt="La Cognoscenti">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Cognoscenti Cabrio</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#cognoscenti">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE COGNOSCENTI CABRIO -->
+				<div class="modal fade" id="cognoscenti" tabindex="-1" role="dialog" aria-labelledby="cognoscenti" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-center text-light">
+								<h5 class="modal-title">La Cognoscenti Cabriolé</h5>
+									<button type="button" class="close" aria-label="Close" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 55 000$<br>
+								Vitesse Maximum: 286 km/h<br>
+								Masse: 2 500 kg<br>
+								Nombres de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE COGNGOSCENTI CABRIO -->
+				<div class="col-md-6 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/sentinel.jpg" alt="La Sentinel">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Sentinel</h5>
+								<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+									<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Sentinel">
+										Caractéristiques
+									</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE SENTINEL -->
+				<div id="Sentinel" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="Sentinel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Sentinel</h5>
+									<button type="button" class="close" aria-label="Fermer" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 32 000$<br>
+								Vitesse Maximum: 227 km/h<br>
+								Masse: 1 400 kg<br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN MODALE SENTINEL -->
+				<div class="col-md-6 py-2">
+					<div class="card">
+						<img class="card-img-top" src="images/felon.jpg" alt="La Felon">
+							<div class="card-body bg-dark text-center text-light">
+								<h5 class="card-title">La Felon</h5>
+									<p>Clique sur le bouton pour afficher les informations sur le véhicule.</p>
+										<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#felon">
+											Caractéristiques
+										</button>
+							</div>
+					</div>
+				</div>
+				<!-- MODALE FELON -->
+				<div id="felon" class="modal fade" tabindex="-1" aria-labelledby="felon" aria-hidden="true" role="dialog">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-dark text-light">
+								<h5 class="modal-title">La Felon</h5>
+									<button type="button" class="close" aria-label="Fermer" data-dismiss="modal">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body bg-secondary text-center text-light">
+								Prix d'achat: 42 000$<br>
+								Vitesse Maximum: 232 km/h<br>
+								Masse: 1 800 kg<br>
+								Nombre de Places: 4
+							</div>
+							<div class="modal-footer bg-dark">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section class="container-fluid bg-dark text-light">
+		<section class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>@copyright 2020-2021 - Tous droits réservés à Aurorira RôlePlay - Propulsé par Jacques Blake 
+					<a type="button" class="btn btn-dark" href="mentions.html" role="button">Mentions Légales</a>
+				</div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>
