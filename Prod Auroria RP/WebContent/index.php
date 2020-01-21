@@ -22,25 +22,34 @@
 		 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    		<ul class="navbar-nav ml-auto">
 		      			<li class="nav-item active">
-							<a class="nav-link" href="index.html">Accueil</a>
+							<a class="nav-link" href="index.php">Accueil</a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="background.html">Notre Histoire</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="creationBackgroundPerso.php">Cr&eacute;er son background</a>
+							<a class="nav-link" href="creationBackgroundPerso.php">Cr&eacute;er son Background</a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="background-perso.php">Background Personnages</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="rules.html">Notre Code P&eacute;nal</a>
+							<a class="nav-link" href="rules.html">Notre Code P&eacute;nale</a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="concess_main.html">Le Concessionnaire</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="contact.php">Nous contacter</a>
+							<a class="nav-link" href="contact.php">Nous Contacter</a>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navDeroulant" role="button" data-toggle="dropdown" aria-haspopup="true" 
+							aria-expanded="false">Mon Compte</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="connexion.php">Se Connecter</a>
+								<a class="dropdown-item" href="background-perso.php">Les Background Personnages</a>
+								<a class="dropdown-item" href="profile.php">Mon Profil</a>
+							</div>
 						</li>
 		    		</ul>
 		  		</div>
